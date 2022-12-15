@@ -1,0 +1,19 @@
+.input{
+    height: 40px;
+    border-color: #808080;
+    border-style:dotted;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+    
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 230px;
+    align-items: center;
+    padding: 10px;
+
+}

@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Home.module.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Dijkstra from "../Dijkstra/Dijkstra";
-import MinHeap from "../MinHeap/MinHeap";
+
 import Button from "../../components/Button";
 
 export default function Home() {

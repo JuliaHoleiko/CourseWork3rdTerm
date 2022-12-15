@@ -7,7 +7,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Dijkstra from './pages/Dijkstra/Dijkstra';
+import DijkstraCanva from './pages/Dijkstra/DijkstraCanva'
+
 import MinHeap from './pages/MinHeap/MinHeap';
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
        <Router>
         <Routes>
             <Route  exact path="/" element = {<Home/>} />
-            <Route  exact path="/dijkstra" element = {<Dijkstra/>} />
+            <Route  exact path="/dijkstra" element = {<DijkstraCanva/>} />
             <Route  exact path="/minheap" element = {<MinHeap/>} />
+            
+            
           </Routes>
       </Router>
     </div>

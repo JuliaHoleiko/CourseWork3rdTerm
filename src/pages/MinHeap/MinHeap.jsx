@@ -4,11 +4,17 @@ import styles from "./MinHeap.module.css";
 import { Formik, Form, Field, UseField, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Button from '../../components/Button';
+import {Link } from "react-router-dom"
 
 export default function MinHeap() {
   
   return (
     <div>
+      <div className={styles.back}>
+        <Link to = "/">
+          <Button text="Back"></Button>
+        </Link>
+      </div>
       <h2 className={styles.header}>Min Heap</h2>
       <Canvas/>
     </div>
